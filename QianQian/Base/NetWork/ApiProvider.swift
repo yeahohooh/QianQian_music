@@ -33,6 +33,7 @@ let ApiProvider = MoyaProvider<QianApi>(requestClosure: requestClosure, plugins:
 enum QianApi {
     case home(appid: Int,sign: String,timestamp: Int64)
     case tracklist(id: Int,appid: Int,sign: String,timestamp: Int64,pageNo: Int,pageSize: Int,type: Int)
+    case artistlist(appid: Int,artistGender: String,artistRegion: String,pageNo: Int,pageSize: Int,sign: String,timestamp: Int64)
 }
 
 extension QianApi: TargetType {
@@ -46,6 +47,8 @@ extension QianApi: TargetType {
             return "v1/index"
         case .tracklist:
             return "v1/tracklist/info"
+        case .artistlist:
+            return "/v1/artist/list"
         }
     }
     
@@ -72,6 +75,14 @@ extension QianApi: TargetType {
             parmeters["pageNo"] = pageNo
             parmeters["pageSize"] = pageSize
             parmeters["type"] = type
+        case .artistlist(let appid,let artistGender,let artistRegion,let pageNo,let pageSize,let sign,let timestamp):
+            parmeters["appid"] = appid
+            parmeters["artistGender"] = artistGender
+            parmeters["artistRegion"] = artistRegion
+            parmeters["pageNo"] = pageNo
+            parmeters["pageSize"] = pageSize
+            parmeters["sign"] = sign
+            parmeters["timestamp"] = timestamp
         default:
             break
         }

@@ -5,7 +5,7 @@
 //  Created by 李博 on 2021/4/23.
 //
 
-import UIKit
+import Foundation
 import HandyJSON
 
 struct Trail_audio_info: HandyJSON {

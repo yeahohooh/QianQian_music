@@ -309,7 +309,7 @@ class HomeController: BaseController {
     @objc func categoryClick(_ sender: UIButton) {
         switch sender.tag {
         case 10: // 歌手
-            print("singer click")
+            navigationController?.pushViewController(SingerController(), animated: true)
             break
         case 11: // 榜单
             print("list click")

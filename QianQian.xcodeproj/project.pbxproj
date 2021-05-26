@@ -10,6 +10,9 @@
 		1808912026467F0300D48648 /* AudioDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808911F26467F0300D48648 /* AudioDetailView.swift */; };
 		180891222649001400D48648 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180891212649001400D48648 /* CustomSlider.swift */; };
 		18089124264904D900D48648 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18089123264904D900D48648 /* AudioPlayer.swift */; };
+		180997CD265CDD5D00E49AD0 /* ArtistListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180997CC265CDD5D00E49AD0 /* ArtistListModel.swift */; };
+		180997D2265E107F00E49AD0 /* SingerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180997D1265E107F00E49AD0 /* SingerCell.swift */; };
+		180997D4265E173E00E49AD0 /* SingerAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180997D3265E173E00E49AD0 /* SingerAreaCell.swift */; };
 		1831CCA3262D3381005DC135 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831CCA2262D3381005DC135 /* UIImageExtension.swift */; };
 		1831CCA7262D4B74005DC135 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831CCA6262D4B74005DC135 /* UIButtonExtension.swift */; };
 		1847488F262DA2A500346EFF /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847488E262DA2A500346EFF /* AlbumView.swift */; };
@@ -19,6 +22,7 @@
 		184748D5262FF11700346EFF /* SingerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184748D4262FF11700346EFF /* SingerView.swift */; };
 		184748D82630284900346EFF /* NewSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184748D72630284900346EFF /* NewSongView.swift */; };
 		184748DB2630507A00346EFF /* SelectedVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184748DA2630507A00346EFF /* SelectedVideoView.swift */; };
+		186954622657A1F70059DC34 /* SingerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186954612657A1F70059DC34 /* SingerController.swift */; };
 		18E1EA30261C14B50046DD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1EA2F261C14B50046DD76 /* AppDelegate.swift */; };
 		18E1EA34261C14B50046DD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1EA33261C14B50046DD76 /* ViewController.swift */; };
 		18E1EA39261C14B80046DD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E1EA38261C14B80046DD76 /* Assets.xcassets */; };
@@ -48,6 +52,9 @@
 		1808911F26467F0300D48648 /* AudioDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDetailView.swift; sourceTree = "<group>"; };
 		180891212649001400D48648 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		18089123264904D900D48648 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		180997CC265CDD5D00E49AD0 /* ArtistListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListModel.swift; sourceTree = "<group>"; };
+		180997D1265E107F00E49AD0 /* SingerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerCell.swift; sourceTree = "<group>"; };
+		180997D3265E173E00E49AD0 /* SingerAreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerAreaCell.swift; sourceTree = "<group>"; };
 		1831CCA2262D3381005DC135 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		1831CCA6262D4B74005DC135 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		1847488E262DA2A500346EFF /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
@@ -57,6 +64,7 @@
 		184748D4262FF11700346EFF /* SingerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerView.swift; sourceTree = "<group>"; };
 		184748D72630284900346EFF /* NewSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSongView.swift; sourceTree = "<group>"; };
 		184748DA2630507A00346EFF /* SelectedVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedVideoView.swift; sourceTree = "<group>"; };
+		186954612657A1F70059DC34 /* SingerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerController.swift; sourceTree = "<group>"; };
 		18E1EA2C261C14B50046DD76 /* QianQian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QianQian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1EA2F261C14B50046DD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E1EA33261C14B50046DD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180997D0265E104400E49AD0 /* singer */ = {
+			isa = PBXGroup;
+			children = (
+				180997D1265E107F00E49AD0 /* SingerCell.swift */,
+				180997D3265E173E00E49AD0 /* SingerAreaCell.swift */,
+			);
+			path = singer;
+			sourceTree = "<group>";
+		};
 		1831CCA1262D3274005DC135 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +224,7 @@
 				18E1EA63261C294D0046DD76 /* HomeController.swift */,
 				18E1EA72261C5AC50046DD76 /* SearchController.swift */,
 				18E412762632CA3C00B5CB7B /* TrackListController.swift */,
+				186954612657A1F70059DC34 /* SingerController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -222,6 +240,7 @@
 		18E1EAA1261CA39A0046DD76 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				180997D0265E104400E49AD0 /* singer */,
 				18E1EAA3261CA4DB0046DD76 /* SearchBarView.swift */,
 				18E1EB4F261F00760046DD76 /* CycleCell.swift */,
 				1847488E262DA2A500346EFF /* AlbumView.swift */,
@@ -248,6 +267,7 @@
 			children = (
 				18E1EB2A261DF53A0046DD76 /* HomeModel.swift */,
 				18E412732632C74C00B5CB7B /* TrackListModel.swift */,
+				180997CC265CDD5D00E49AD0 /* ArtistListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,11 +422,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180997D2265E107F00E49AD0 /* SingerCell.swift in Sources */,
 				18E1EB50261F00760046DD76 /* CycleCell.swift in Sources */,
 				18E1EA34261C14B50046DD76 /* ViewController.swift in Sources */,
 				18E1EA5B261C28500046DD76 /* TabBarController.swift in Sources */,
 				184748CB262ED19200346EFF /* GenreView.swift in Sources */,
 				184748D2262FCD0400346EFF /* UIColorExtension.swift in Sources */,
+				180997CD265CDD5D00E49AD0 /* ArtistListModel.swift in Sources */,
 				18E412742632C74C00B5CB7B /* TrackListModel.swift in Sources */,
 				18E1EAAB261D92D30046DD76 /* BaseController.swift in Sources */,
 				180891222649001400D48648 /* CustomSlider.swift in Sources */,
@@ -424,9 +446,11 @@
 				18E412BD2636AC9400B5CB7B /* TrackSongView.swift in Sources */,
 				1831CCA7262D4B74005DC135 /* UIButtonExtension.swift in Sources */,
 				18E412772632CA3C00B5CB7B /* TrackListController.swift in Sources */,
+				186954622657A1F70059DC34 /* SingerController.swift in Sources */,
 				18E1EB27261DE0510046DD76 /* Global.swift in Sources */,
 				184748DB2630507A00346EFF /* SelectedVideoView.swift in Sources */,
 				18E1EA5F261C28750046DD76 /* NavigationController.swift in Sources */,
+				180997D4265E173E00E49AD0 /* SingerAreaCell.swift in Sources */,
 				18E1EB2B261DF53A0046DD76 /* HomeModel.swift in Sources */,
 				18E1EB17261DC1240046DD76 /* ApiProvider.swift in Sources */,
 				184748CF262FBABC00346EFF /* BaseView.swift in Sources */,
